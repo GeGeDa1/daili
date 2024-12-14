@@ -1,3 +1,2 @@
 DOMAIN-SUFFIX,cnspeedtest.cn
-IP-CIDR,183.235.59.38,no-resolve
-IP-CIDR,218.2.122.246,no-resolve
+DEST-PORT,65499,DIRECT
