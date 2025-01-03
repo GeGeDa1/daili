@@ -1,6 +1,6 @@
 const url = $request.url;
 
-if (url.includes("uaa.com")) {
+if (url.includes("uaa.co")) {
     let body = $response.body || '';
     
     // 在这里你可以对所有路径进行处理
