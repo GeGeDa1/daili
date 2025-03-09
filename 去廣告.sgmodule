@@ -9,5 +9,9 @@ http-response ^https://.*\.boce\.com/.* script-path=https://raw.githubuserconten
 # 网页itdog去广告
 http-response ^https://.*\.itdog\.cn/.* script-path=https://raw.githubusercontent.com/GeGeDa1/daili/refs/heads/main/itdog.js,timeout=10,requires-body = true,tag = itdog.js,enable=true
 
+# 百度重定向
+http-response ^https?:\/\/wakeup\.baidu\.com\/.* script-path=https://raw.githubusercontent.com/GeGeDa1/daili/refs/heads/main/百度重定向.js,timeout=10,requires-body = false,tag = 百度重定向,enable=true
+
+
 [MITM]
-hostname = *.itdog.cn,*.boce.com
+hostname = *.itdog.cn,*.boce.com,wakeup.baidu.com
